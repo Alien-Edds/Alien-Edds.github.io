@@ -137,29 +137,11 @@
         <br> I mainly work on Minecraft Bedrock Edition addons.
     </header>
     <section id="socials">
-        <script>
-            const socials = document.getElementById('socials');
-
-            const links = [
-                { url: 'https://youtube.com/@lightyisreal', text: 'YouTube' },
-                { url: 'https://youtube.com/@lightyisreal', text: 'Test' },
-                { url: 'https://youtube.com/@lightyisreal', text: 'Test' },
-                { url: 'https://youtube.com/@lightyisreal', text: 'Test' }
-            ];
-
-            links.forEach(link => {
-                const a = document.createElement('a');
-                a.href = link.url;
-                a.className = 'social-link';
-
-                const i = document.createElement('i');
-                i.className = 'social-text';
-                i.textContent = link.text;
-
-                a.appendChild(i);
-                socials.appendChild(a);
-            });
-        </script>
+        <a href = "https://youtube.com/@alienedds" class = "social-link">
+            <i class="social-text">
+                Youtube
+            </i>
+        </a>
     </section>
 
 </body>
