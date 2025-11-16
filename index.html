@@ -6,114 +6,16 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./global.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
-        body {
-            background: linear-gradient(45deg, #4a106d 0%, #d33d9c 100%);
-            background-attachment: fixed;
-            min-height: 100vh;
-            margin-top: 1vh;
-        }
-
-        #pfp {
-            width: 15rem;
-            height: 15rem;
-            margin-left: auto;
-            margin-right: auto;
-            display: block;
-            /* Add this */
-            position: relative;
-            background: rgba(0, 0, 0, 0.2);
-            padding: 1rem;
-            border-radius: 5rem;
-            /* Add this */
-            /* Add this */
-        }
-
-        #socials {
-            display: grid;
-            grid-template-columns: repeat(4, 1fr);
-            gap: 1rem;
-            width: 90%;
-            max-width: 900px;
-            padding: 1em;
-            text-align: center;
-            justify-content: center;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 1rem;
-            align-content: center;
-        }
-
-        .social-link {
-            transition-duration: 0.25s;
-            width: 12rem;
-            height: 6rem;
-            margin-left: auto;
-            margin-right: auto;
-            margin-top: 1rem;
-            display: block;
-            /* Add this */
-            position: relative;
-            background: linear-gradient(45deg, rgba(48, 7, 69, 1) 0%, rgba(206, 30, 112, 1) 100%);
-            padding: 1rem;
-            border-radius: 5rem;
-            text-align: center;
-            font-size: 2rem;
-            font-family: "Paytone One", sans-serif;
-            text-decoration: none;
-            /* Add this */
-            /* Add this */
-        }
-
-        .social-link:hover {
-            transition-duration: 0.25s;
-            transform: translateY(-10px) scale(1.05);
-            background: linear-gradient(45deg, rgba(48, 8, 62, 0.5) 0%, rgba(205, 30, 111, 0.5) 100%);
-        }
-
-        .social-text {
-            display: block;
-            align-self: center;
-            color: rgb(255, 255, 255);
-            margin-top: 1.25rem;
-            font-style: normal;
-        }
-
-        .social-image {
-            display: block;
-            align-self: center;
-            margin-top: -0.75rem;
-            margin-left: auto;
-            margin-right: auto;
-            opacity: 0.5;
-            width: 7.5rem;
-            height: 7.5rem;
-        }
-
-        #display-text {
-            text-align: center;
-            color: rgb(78, 228, 228);
-            font-size: 4rem;
-            font-family: "Paytone One", sans-serif;
-        }
-
-        #body-text {
-            text-align: center;
-            background: rgba(0, 0, 0, 0.25);
-            border-radius: 1rem;
-            padding: 0.75rem;
-            width: fit-content;
-            height: fit-content;
-            margin-left: auto;
-            margin-top: 1rem;
-            margin-right: auto;
-            color: rgb(111, 121, 255);
-            font-size: larger;
-            font-family: "Paytone One", sans-serif;
-        }
-
         @media (max-width: 975px) {
+            #pfp {
+                width: 12rem;
+                height: 12rem;
+                position: sticky;
+            }
+
             body {
                 margin-left: 20px;
                 margin-right: 20px;
@@ -124,33 +26,13 @@
                 width: 0%;
                 gap: 0rem;
                 margin-left: 50%;
-            }
-
-            .social-link {
-                width: 100%;
-                height: 5rem;
-                display: block;
-                margin-left: 0;
-            }
-
-            .social-link {
-                width: 15rem;
-                height: 5rem;
-                display: block;
-                margin-left: -2.5rem;
-            }
-
-            .social-text {
-                margin-top: 1rem;
-            }
-
-            .social-image {
-                margin-top: -1rem;
-                width: 7rem;
-                height: 7rem;
+                margin-top: -3rem;
             }
         }
     </style>
+    <a href="./index.html" class="home-button">
+        <img src="./home.png" class="home-image">
+    </a>
 </head>
 
 <body>
@@ -158,9 +40,11 @@
     <header id="display-text">
         Alien Edds
     </header>
-    <header id="body-text">
+    <header class="body-text">
         Hello! I am Edds.
         <br> I mainly work on Minecraft Bedrock Edition addons.
+        <br>
+        <br> If you'd like to commission me anything, contact me on discord!
     </header>
     <section id="socials">
         <a href="https://youtube.com/@alienedds" target="_blank" class="social-link">
@@ -178,12 +62,17 @@
         <a href="https://mcpedl.com/user/alien-edds" target="_blank" class="social-link">
             <img src="./mcpedl.webp" class="social-image">
         </a>
-        <!--
+        <!-- <a href="./youtube.html" class="social-link">
+            <i class="social-text"> Youtube Info </i>
+        </a> -->
+    </section>
+</body>
+<!--
     An HTML file always starts by indicating to the browser that the page is HTML.
 -->
-        <!--
+<!--
 	An HTML file always starts by indicating to the browser that the page is HTML.
 -->
-        <!-- <img src="http://i.imgur.com/XWG0O.gif"/> -->
+<!-- <img src="http://i.imgur.com/XWG0O.gif"/> -->
 
-        <!doctype html>
+<!doctype html>
