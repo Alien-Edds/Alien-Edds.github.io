@@ -89,6 +89,21 @@ body {
     /* Add this */
 }
 
+.cf_embed {
+    width: 54rem;
+    height: 9rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* Add this */
+    position: relative;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 5rem;
+    /* Add this */
+    /* Add this */
+}
+
 .social-link {
     transition-duration: 0.25s;
     width: 12rem;
