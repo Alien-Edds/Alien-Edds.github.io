@@ -50,11 +50,43 @@ body {
     align-content: center;
 }
 
-#display-text {
+.divider {
+    width: 80rem;
+    height: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* Add this */
+    position: relative;
+    margin-top: 3rem;
+    opacity: 0.75;
+    background: rgba(0, 0, 0, 0.25);
+    border-radius: 20rem;
+    padding: 1.5rem;
+    /* Add this */
+    /* Add this */
+}
+
+.display-text {
     text-align: center;
     color: rgb(78, 228, 228);
     font-size: 4rem;
     font-family: "Paytone One", sans-serif;
+}
+
+.embed {
+    width: 54rem;
+    height: 30rem;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    /* Add this */
+    position: relative;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 1rem;
+    border-radius: 5rem;
+    /* Add this */
+    /* Add this */
 }
 
 .social-link {
@@ -90,6 +122,7 @@ body {
     color: rgb(255, 255, 255);
     font-style: normal;
     font-size-adjust: inherit;
+    margin-top: 1.25rem;
 }
 
 .social-image {
@@ -154,7 +187,7 @@ body {
         margin-top: -3rem;
     }
 
-    .social-link {
+    .embed .social-link {
         width: 20rem;
         height: 8rem;
         margin-left: -2.5rem;
